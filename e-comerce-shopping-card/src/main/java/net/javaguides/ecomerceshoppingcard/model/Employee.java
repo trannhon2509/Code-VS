@@ -1,9 +1,13 @@
 package net.javaguides.ecomerceshoppingcard.model;
 
 import jakarta.persistence.*;
+import lombok.Getter;
+import lombok.Setter;
 
 @Entity
 @Table(name = "employees")
+@Getter
+@Setter
 public class Employee {
 
     @Id
