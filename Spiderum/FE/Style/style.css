@@ -1,0 +1,92 @@
+:root {
+    --backgroud-website: white;
+    --font-color: #697180;
+    --button-color: #2E89BF;
+    --spider-shop-background: #FFF7ED;
+    --spider-shop-font-color: #92404F;
+    --spider-icon-user-background: #8BA6BB;
+    --item-hover-background: #F1F5FA;
+    --button-write-hover-background: #EAEAEF;
+}
+
+html,
+body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+    color: #999EA6;
+}
+a{
+    color: black !important;
+}
+p{
+    margin: 0 !important;
+}
+.navbar-container{
+    background-color: white;
+    max-width: 1160px;
+    margin: 0 auto;
+}
+.logo{
+    border-style: solid;
+    border-left: white;
+    border-top: white;
+    border-bottom: white;
+    border-width: 2px;
+    padding-right: 20px;
+}
+.bi{
+    margin: 0 10px;
+}
+.bi-facebook{
+    margin-left: 35px;
+}
+.spider-shop{
+    background-color: var(--spider-shop-background);
+    color: var(--spider-shop-font-color);
+    font-size: 12px;
+    font-weight: bold;
+    box-sizing: border-box;
+    padding: 5px;
+    border-radius: 30px;
+}
+.icon-user{
+    background-color: var(--spider-icon-user-background);
+    padding: 6px;
+    border-radius: 50%;
+}
+.button-write{
+    border: solid 1px var(--font-color) !important;
+    border-radius: 30px !important;
+}
+.button-write:hover{
+    background-color: var(--button-color);
+}
+.navbar-item{
+    padding: 10px 5px;
+    margin: 0 5px;
+}
+.navbar-item:hover{
+    background-color: var(--item-hover-background);
+}
+.categories-article-item{
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--font-color);
+}
+.info-user{
+    position: absolute;
+    width: 280px;
+    height: 500px;
+    right: 380px;
+    border: 1px solid red;
+}
+.info-user{
+    
+}
+.info-user-body{
+    
+}
