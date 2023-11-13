@@ -12,16 +12,17 @@ import springjpa.learn_jpa.model.Student;
 import springjpa.learn_jpa.repository.StudentRepository;
 
 @RestController
-@RequestMapping("/admin")
 public class StudentController {
     @Autowired
     StudentRepository studentRepository;
+   
     
-    @GetMapping("/students")
+    @GetMapping("/")
     public ResponseEntity<?> getEntity(){
         List<Student> student = studentRepository.findAll();
         return ResponseEntity.ok(student);
     }
+    
     
                                                                     
 }

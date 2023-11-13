@@ -1,4 +1,6 @@
-package com.spiderum;
+package com.example.spiderum;
+
+import java.util.List;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,7 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SpiderumApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpiderumApplication.class, args);
-    }
+
+        
 
 }
